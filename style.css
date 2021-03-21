@@ -6,6 +6,7 @@ Common
 
 body {
     font-family: "monospace", sans-serif;
+    background-color: aqua;
 }
 
 .font-primary {
@@ -29,6 +30,10 @@ h2 {
 
 a.font-black {
     color: #000 !important;
+}
+
+.navbar {
+    background-color: rgba(221, 216, 216, 0.713);
 }
 
 /*********************
@@ -100,4 +105,12 @@ PROJECT
 
 #projects .card-title {
     font-weight: bold;
+}
+
+#projects .card .blue {
+    background-color: #a8b0f5d0;
+}
+
+#projects .card .red {
+    background-color: #f13131ab;
 }
