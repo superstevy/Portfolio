@@ -6,7 +6,7 @@ Common
 
 body {
   font-family: "monospace", sans-serif;
-  background-color: aqua;
+  background-color: rgb(253, 253, 253);
 }
 
 .font-primary {
@@ -108,9 +108,9 @@ PROJECT
 }
 
 #projects .card .blue {
-  background-color: #a8b0f5d0;
+  background-color: #00abae;
 }
 
 #projects .card .red {
-  background-color: #f13131ab;
+  background-color: #00abae;
 }
