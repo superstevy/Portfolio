@@ -114,3 +114,8 @@ PROJECT
 #projects .card .red {
   background-color: #00abae;
 }
+video.project-video {
+  width: 100%;
+  max-height: 270px;
+  background-color: black;
+}

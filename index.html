@@ -1,111 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <!--icon-->
+    <link rel="icon" type="image/png" href="img/techis-logo.png" />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">   
-            <!--icon-->
-        <link rel="icon" type="image/png" href="img/techis-logo.png">
-            <!--bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <title>Portfolio</title>
-    </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <!-- container, adjust the width for each device. -->
+      <div class="container">
+        <!-- navbar-brand, for your company, product, or project name. -->
+        <a class="navbar-brand title-icon" href="#"
+          ><span class="font-primary">P</span>ortfolio</a
+        >
+        <!-- navbar-toggler, for use with our collapse pluggin and other navigation toggling behaviors. -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-            <!-- container, adjust the width for each device. -->
-            <div class="container">
-                <!-- navbar-brand, for your company, product, or project name. -->
-                <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
-                <!-- navbar-toggler, for use with our collapse pluggin and other navigation toggling behaviors. -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- .collapse .navbar-collapse, for grouping and hiding navbar contents by a parent breakpoint. -->
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <!-- navbar-nav, for a full-height and lightweight navigation -->
-                    <!-- ms-auto, for pushing items to the left -->
-                    <!-- mb-2, for a margin bottom for 2 levels -->                    
-                    <ul class="navbar-nav ms-auto mb-2">
-                        <li class="nav-item">
-                            <a class="nav-link font-black"  href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-black"  href="#projects">Projects</a>
-                        </li>                     
-                    </ul>                    
-                </div>
-            </div>
-        </nav>
-
-        <div id="about">
-            <h2><span class="font-primary">A</span>bout me</h2>
-            <img src="img/Naturalization.jpg">
-            <div class="name">A. Stevy Fonkou F.</div>
-            <div class="vocation">Web Application Developer</div>
-            <div class="skills">HTML / CSS / JavaScript / Python / Django / DjangoRestframework / React / Redux / SQL / Bootstrap / GitHub</div>
-            <p>
-                As a full-stack developer, I worked on a Twitter Clone project and a zoom background project.
-            </p>
-            <div class="email">superstevy@yahoo.com</div>
-            <div class="icon">
-                <a href="https://github.com/superstevy"><i class="bi bi-github"></i></a>
-                <a href="https://linkedin.com/in/stevy-auriole-fonkou-fankem-206957209"><i class="bi bi-linkedin ms-3"></i></a>
-            </div>
+        <!-- .collapse .navbar-collapse, for grouping and hiding navbar contents by a parent breakpoint. -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <!-- navbar-nav, for a full-height and lightweight navigation -->
+          <!-- ms-auto, for pushing items to the left -->
+          <!-- mb-2, for a margin bottom for 2 levels -->
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#projects">Projects</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <div id="projects">
-            <h2><span class="font-primary">P</span>rojects</h2>
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout me</h2>
+      <img src="img/Naturalization.jpg" />
+      <div class="name">A. Stevy Fonkou F.</div>
+      <div class="vocation">Web Application Developer</div>
+      <div class="skills">
+        HTML / CSS / JavaScript / Python / Django / DjangoRestframework / React
+        / Redux / SQL / Bootstrap / GitHub
+      </div>
+      <p>
+        As a full-stack developer, I worked on a Twitter Clone project and a
+        zoom background project.
+      </p>
+      <div class="email">superstevy@yahoo.com</div>
+      <div class="icon">
+        <a href="https://github.com/superstevy"><i class="bi bi-github"></i></a>
+        <a href="https://linkedin.com/in/stevy-auriole-fonkou-fankem-206957209"
+          ><i class="bi bi-linkedin ms-3"></i
+        ></a>
+      </div>
+    </div>
 
-            <div class="card mb-3">
-                <div class="row blue">
-                    <div class="col-md-4">
-                        <img src="img/Twitter-Clone_scrshot.png" alt="Twitter Project">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Twitter Clone</h5>
-                            <p class="card-text">This is a test clone of Twitter made using HTML / CSS / JavaScript / Python / Django.</p>
-                            <!-- <p class="card-text"><small class="text-muted">
-                                Test Login Account <br>
-                                Email: test@gmail.com <br>
-                                Password: 123456</small>
-                            </p> -->
-                            <a href="https://twitter-clone-stevy.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-                            <a href="https://github.com/superstevy/Twitter-Clone.git" target="_blank" class="btn btn-secondary">GitHub Link</a>                            
-                        </div>
-                    </div>
-                </div>
+    <div id="projects">
+      <h2><span class="font-primary">P</span>rojects</h2>
+      <div class="card mb-3">
+        <div class="row red">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted>
+              <source src="video/Image from iOS.MP4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">DreamLine Digitals</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>This is an app that allows
+                the user to select and download a variety of images to use as
+                background for different zoom meetings.
+              </p>
+              <p class="card-text">
+                <strong>Skills Used: </strong>React / Redux / Django /
+                DjangoRestframework
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Test Login Account <br />
+                  Email: art@email.com <br />
+                  Password: qwerty
+                </small>
+              </p>
+              <a
+                href="https://dreamline-frontend-prod.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/superstevy/dreamline-bussiness/tree/dev"
+                target="_blank"
+                class="btn btn-secondary"
+                >GitHub Link</a
+              >
             </div>
-
-            <div class="card mb-3">
-                <div class="row red">
-                    <div class="col-md-4">
-                        <img src="img/Zoomglam.png" alt="">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Zoom backgrounds</h5>
-                            <p class="card-text">This is an app that allows the user to select and download a variety of images to use as background for different zoom meetings. It was made using React / Redux / Django / DjangoRestframework.</p>
-                            <!-- <p class="card-text"><small class="text-muted">
-                                Test Login Account <br>
-                                Email: test@gmail.com <br>
-                                Password: 123456
-                            </small></p> -->
-                            <a href="https://zoomglam-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-                            <a href="https://github.com/superstevy/Zoomglam.git" target="_blank" class="btn btn-secondary">GitHub Link</a>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+          </div>
         </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row red">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted>
+              <source src="video/zoomProject.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Zoom backgrounds</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>This is an app that allows
+                the user to select and download a variety of images to use as
+                background for different zoom meetings.
+              </p>
+              <p class="card-text">
+                <strong>Skills Used: </strong>React / Redux / Django /
+                DjangoRestframework
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <br />
+                  <br />
+                </small>
+              </p>
+              <a
+                href="https://zoomglam-frontend.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/superstevy/Zoomglam.git"
+                target="_blank"
+                class="btn btn-secondary"
+                >GitHub Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>    
-    </body>
+      <div class="card mb-3">
+        <div class="row blue">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted>
+              <source src="video/twitter.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Twitter Clone</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong>This is a test clone of
+                Twitter App.
+              </p>
+              <p class="card-text">
+                <strong>Skills Used: </strong>HTML / CSS / JavaScript / Python /
+                Django
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <br />
+                  <br />
+                </small>
+              </p>
+              <a
+                href="https://twitter-clone-stevy.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/superstevy/Twitter-Clone.git"
+                target="_blank"
+                class="btn btn-secondary"
+                >GitHub Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
